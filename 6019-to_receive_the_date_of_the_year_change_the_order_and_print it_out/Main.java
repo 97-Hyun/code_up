@@ -13,5 +13,6 @@ public class Main {
         StringTokenizer st = new StringTokenizer(br.readLine());
         String[] date = st.nextToken().split("\\.");
         System.out.println(date[2] + "-" + date[1] + "-" + date[0]);
+        br.close();
     }
 }
